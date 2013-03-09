@@ -3,6 +3,7 @@
 layouts made easy for rails 3
 
 [![Gem Version](https://badge.fury.io/rb/simple-page-layout.png)](http://badge.fury.io/rb/simple-page-layout)
+[![Code Climate](https://codeclimate.com/github/mindpin/simple-page-layout.png)](https://codeclimate.com/github/mindpin/simple-page-layout)
 
 ## dependencies
 

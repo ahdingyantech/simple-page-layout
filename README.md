@@ -2,6 +2,8 @@
 
 layouts made easy for rails 3
 
+[![Gem Version](https://badge.fury.io/rb/simple-page-layout.png)](http://badge.fury.io/rb/simple-page-layout)
+
 ## dependencies
 
 * haml

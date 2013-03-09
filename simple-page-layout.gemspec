@@ -1,7 +1,7 @@
 # coding: utf-8
 Gem::Specification.new do |s|
   s.name          = 'simple-page-layout'
-  s.version       = '0.0.1'
+  s.version       = '0.0.2'
   s.platform      = Gem::Platform::RUBY
   s.summary       = 'simple page layout helpers'
   s.description   = 'layouts made easy for rails 3.'
@@ -9,8 +9,6 @@ Gem::Specification.new do |s|
   s.email         = 'ben7th@sina.com'
   s.homepage      = 'https://github.com/mindpin/simple-page-layout'
   s.licenses      = 'MIT'
-
-  s.add_dependency 'haml'
 
   s.files         = Dir.glob("lib/**/*") + %w(README.md)
   s.require_paths = ['lib']

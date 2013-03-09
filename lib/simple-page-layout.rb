@@ -49,7 +49,7 @@ module SimplePageLayout
 
   class Railtie < Rails::Railtie
     initializer 'SimplePageLayout.helper' do |app|
-      ActionView::Base.send :include, Helper
+      ActionView::Base.send :include, SimplePageLayout::Helper
     end
   end
 end

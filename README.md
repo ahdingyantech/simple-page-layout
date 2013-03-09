@@ -8,13 +8,18 @@ layouts made easy for rails 3
 
 ## Usage
 
+include in Gemfile:
+```ruby
+gem 'simple-navbar'
+```
+
 in your layout file:
 
 ```haml
 -# in file views/layouts/my_layout.html.haml
 
 !!!
-- simple_page_layout :html_lang => :zh, :site_title => 'My Site' do
+- simple_page_layout 'My Site', :html_lang => :zh do
   -# your code here with yaml
   .page-content
     yield

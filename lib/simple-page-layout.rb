@@ -65,8 +65,8 @@ module SimplePageLayout
 
   class Railtie < Rails::Railtie
     initializer 'SimplePageLayout.helper' do |app|
-      ActionView::Base.send :include, SimplePageLayout::Helper
-      ActionView::Base.send :include, SimplePageLayout::ExtHelper
+      ActionView::Base.send :include, Helper
+      ActionView::Base.send :include, ExtHelper
     end
   end
 end

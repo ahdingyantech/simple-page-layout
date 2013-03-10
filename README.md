@@ -2,11 +2,19 @@
 
 layouts made easy for rails 3
 
+[![Gem Version](https://badge.fury.io/rb/simple-page-layout.png)](http://badge.fury.io/rb/simple-page-layout)
+[![Code Climate](https://codeclimate.com/github/mindpin/simple-page-layout.png)](https://codeclimate.com/github/mindpin/simple-page-layout)
+
 ## dependencies
 
 * haml
 
 ## Usage
+
+include in Gemfile:
+```ruby
+gem 'simple-navbar'
+```
 
 in your layout file:
 
@@ -14,7 +22,7 @@ in your layout file:
 -# in file views/layouts/my_layout.html.haml
 
 !!!
-- simple_page_layout :html_lang => :zh, :site_title => 'My Site' do
+- simple_page_layout 'My Site', :html_lang => :zh do
   -# your code here with yaml
   .page-content
     yield

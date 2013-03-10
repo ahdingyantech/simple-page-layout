@@ -1,3 +1,4 @@
+# coding: utf-8
 module SimplePageLayout
   module Helper
     class PageLayout

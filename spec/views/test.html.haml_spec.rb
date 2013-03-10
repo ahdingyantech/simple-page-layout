@@ -20,7 +20,7 @@ describe 'test.html.haml' do
   end
 
   it 'test body' do
-    rendered.should have_selector('body') do |body|
+    rendered.should have_selector('body.test') do |body|
       body.should have_selector('.page-content .foo', :content => 'bar')
       body.should have_selector('script', :src => '/assets/application.js')
     end

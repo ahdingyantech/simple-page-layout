@@ -2,6 +2,7 @@
 
 layouts made easy for rails 3
 
+[![Build Status](https://travis-ci.org/mindpin/simple-page-layout.png?branch=master)](https://travis-ci.org/mindpin/simple-page-layout)
 [![Gem Version](https://badge.fury.io/rb/simple-page-layout.png)](http://badge.fury.io/rb/simple-page-layout)
 [![Code Climate](https://codeclimate.com/github/mindpin/simple-page-layout.png)](https://codeclimate.com/github/mindpin/simple-page-layout)
 

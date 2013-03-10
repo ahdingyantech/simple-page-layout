@@ -10,9 +10,11 @@ end
 
 group :test do
   gem 'rspec-rails'
-  gem 'capybara'
+  # gem 'capybara'
+  # 貌似 webrat 和 capybara 不能同时用
+  # 他们的选择器略有区别
+  gem 'webrat'
+  gem 'rails'
+  gem 'haml'
+  gem 'coveralls', require: false
 end
-
-gem 'rails'
-gem 'haml'
-gem 'coveralls', require: false

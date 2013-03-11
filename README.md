@@ -24,7 +24,7 @@ in your layout file:
 
 !!!
 - simple_page_layout 'My Site', :html_lang => :zh do
-  -# your code here with yaml
+  -# your code here like:
   .page-content
     yield
 ```

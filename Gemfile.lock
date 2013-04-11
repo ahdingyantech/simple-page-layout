@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    simple-page-layout (0.0.2)
+    simple-page-layout (0.0.3)
 
 GEM
   remote: http://rubygems.org/

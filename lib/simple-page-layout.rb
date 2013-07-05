@@ -26,6 +26,7 @@ module SimplePageLayout
 
         @view.haml_tag :head do
           render_page_title
+          @view.haml_concat "<link rel='shortcut icon' href='/favicon.ico' />"
           @view.haml_concat @view.csrf_meta_tags
           @view.haml_concat @view.stylesheet_link_tag(:application)
           @view.haml_concat head_ext if head_ext.present?

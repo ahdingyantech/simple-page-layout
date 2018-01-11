@@ -40,7 +40,7 @@ module SimplePageLayout
         @view.haml_tag :body, :class => @body_class, :data => @data do
           yield
           @view.haml_concat @view.javascript_include_tag(:application)
-          @view.haml_concat @view.javascript_ext if javascript_ext.present?
+          @view.haml_concat javascript_ext if javascript_ext.present?
         end
       end
 

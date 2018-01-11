@@ -1,7 +1,7 @@
 # coding: utf-8
 Gem::Specification.new do |s|
   s.name          = 'simple-page-layout'
-  s.version       = '0.0.3'
+  s.version       = '0.0.5'
   s.platform      = Gem::Platform::RUBY
   s.summary       = 'simple page layout helpers'
   s.description   = 'layouts made easy for rails 3.'

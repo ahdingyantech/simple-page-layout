@@ -11,6 +11,7 @@ module SimplePageLayout
         @site_name = site_name
         @html_lang = options[:html_lang]
         @body_class = options[:body_class]
+        @data = options[:data]
       end
 
       def render(&block)
@@ -36,7 +37,7 @@ module SimplePageLayout
       def render_page_layout_body(&block)
         javascript_ext = @view.content_for :javascript
 
-        @view.haml_tag :body, :class => @body_class do
+        @view.haml_tag :body, :class => @body_class, :data => @data do
           yield
           @view.haml_concat @view.javascript_include_tag(:application)
           @view.haml_concat @view.javascript_ext if javascript_ext.present?
